@@ -1,0 +1,43 @@
+.custom-cont {
+  width: 40%;
+  height: 550px;
+  /* margin: auto; */
+  background-color: #a400e5;
+  border-radius: 5px;
+}
+#show {
+  font-size: 2rem;
+  height: 70px;
+  width: 100%;
+  border-radius: 5px;
+  color: cornsilk;
+  background-color: #d885ec;
+}
+#showdiv {
+}
+.border {
+  border: 1px solid black;
+}
+.bd {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  border-radius: 500px;
+  background-color: #ee02a3;
+  box-shadow: 1px 1px 5px black;
+}
+.digit {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  background-color: #ee02a3;
+  box-shadow: 1px 1px 5px black;
+  width: 100px;
+}
+button {
+  width: 70px;
+  height: 70px;
+}
+button:hover {
+  background-color: chartreuse;
+}
