@@ -11,10 +11,12 @@
   "author": "Athar Ali",
   "license": "ISC",
   "devDependencies": {
+    "font-awesome": "^4.7.0",
     "lite-server": "^2.5.4"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }

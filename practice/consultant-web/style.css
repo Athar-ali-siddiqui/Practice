@@ -1,0 +1,64 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 103%;
+}
+#carousel {
+  position: relative;
+}
+.img-layer {
+  position: absolute;
+  opacity: 0.8;
+  top: 0em;
+  left: 0em;
+  height: 100%;
+  width: 40%;
+  background-color: darkslategrey;
+  opacity: 0.5;
+  border-radius: 0px 0px 5000px 0px;
+
+  color: black;
+  box-shadow: 5px 5px 10px black;
+}
+#navba {
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  z-index: 2;
+}
+.nav-link,
+.navbar-brand {
+  color: black;
+
+  font-weight: bolder;
+}
+.nav-link:hover,
+.navbar-brand:hover {
+  color: blanchedalmond;
+}
+/* .nav-link:hover {
+  background-color: rgba(178, 34, 34, 0.671);
+} */
+.carousel-caption {
+  opacity: 2;
+  color: black;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  font-weight: bolder;
+  font-size: 200%;
+}
+#weSupp {
+  background-color: rgba(218, 165, 32, 0.863);
+  height: 440px;
+}
+#third {
+  color: darkblue;
+  background-color: rgba(190, 190, 190, 0.897);
+  height: 500px;
+}
+#third img {
+  box-shadow: 2px 2px 10px black;
+}
+#footer {
+  color: blanchedalmond;
+  background-color: rgb(32, 31, 31);
+}
