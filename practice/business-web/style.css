@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.03em;
+  font-weight: 600;
+}
+.text-grey {
+  color: rgb(39, 36, 36);
+}
+p {
+  color: black;
+}
+#nav-right {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: -250px;
+  height: 100vh;
+  width: 250px;
+  background-color: #f67c92;
+  transition: 0.5s;
+}
+#nav-right ul li {
+  cursor: pointer;
+  padding: 20px 20px;
+  list-style: none;
+}
+#nav-right > ul > li > a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+}
+#nav-right > ul > li > a:hover {
+  border-left: 5px solid grey;
+}
+#nav-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-image: url("img/menu.png");
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  z-index: 2;
+}
+.header-p {
+  /* font-weight: bolder; */
+  /* background-image: linear-gradient(260deg, #e71f51, hsl(332, 47%, 52%)); */
+  text-shadow: 10px 10px 15px whitesmoke;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  /* -moz-background-clip: text; */
+  /* -moz-text-fill-color: transparent; */
+}
+#header {
+  background: url("img/background.png");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  height: 120vh;
+}
+/* linear-gradient(hsla(0, 1%, 19%, 0.726), hsla(0, 0%, 100%, 0.281)) */
+.square {
+  padding: auto 3px;
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  border-radius: 2px;
+  background-color: #f67c92;
+}
+.line-1 {
+  background-color: #f67c92;
+  display: inline-block;
+  height: 2px;
+  width: 80px;
+}
+.line-2 {
+  background-color: #f67c92;
+  display: inline-block;
+  height: 2px;
+  width: 60px;
+}
+.line {
+  padding: 0 3px;
+  line-height: 15px;
+}
+.border-custom {
+  border: 2px solid #f67c92;
+}
+#header .border-custom:hover,
+#contact-us button:hover,
+#features button:hover,
+#course button:hover,
+#offer button:hover {
+  color: white;
+  background-color: #f67c92;
+}
+#about-us {
+  background-image: url("img/about.png");
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+.about-p {
+  text-shadow: 10px 10px 15px whitesmoke;
+}
+#contact-us {
+  background-image: url("img/contact.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 120vh;
+}
+.form-control {
+  border-radius: 0;
+  height: 50px;
+}
+#course {
+  background-image: url("img/course.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+}
+#offer {
+  background-image: url("img/offer.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+.full-line {
+  width: 100%;
+  height: 1px;
+  background-color: #f67c92;
+}
